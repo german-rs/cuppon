@@ -11,22 +11,97 @@ body {
     padding: 0px;
     font-family: "Roboto", sans-serif;
 }
-/* Fin configuración general. */
 
-/* Color. */
+
+/* Colores. */
 :root{
     --light: #F8F9FA;
     --white:#fff;
     --success: #28a745;
 }
+/* Fin configuración general. */
 
 
 /* Barra de navegación. */
-
 .navbar{
     background: var(--success);
 }
 
 .navbar img{
-    height: 2rem;
+    height: 25pt;
 }
+
+.texto_nav{
+    color:var(--white);
+}
+/* Fin barra de navegación. */
+
+
+/* Sección de cupones. */
+.card h5{
+    color: #212529;
+    font-size: 20pt;
+    font-weight: 300;
+}
+
+.card p{
+    color: #707070;
+    font-size: 16pt;
+    font-weight: 300;
+}
+
+.card span, i{
+    color: #707070;
+    font-size: 13pt;
+    font-weight: 300;
+}
+
+.card-link{
+    text-decoration: none;
+}
+
+.custom-hr {
+    align-self: center;
+    border: none;
+    width: 250px;
+    border-top: 2px solid #707070A0; 
+    margin: 1rem 0; 
+  }
+
+  .custom-precio-anterior{
+    color: #707070;
+    font-size: 16pt;
+    font-weight: 300;
+  }
+
+  .custom-precio-oferta{
+    color: var(--success); 
+    font-size: 20pt;
+    font-weight: 500;
+  }
+  /* Fin sección de cupones. */
+
+
+  /* Sección suscripción. */
+.suscripcion{
+    background: var(--success);
+}
+
+.suscripcion h2{
+    font-size: 21pt;
+    font-weight: 500;
+    color: var(--light);
+}
+  /* Fin sección suscripción. */
+
+  
+  /* Footer. */
+footer img{
+    height: 24pt;
+}
+
+.texto_pie{
+    font-size: 16pt;
+    font-weight: 300;
+}
+  /* Fin footer. */
