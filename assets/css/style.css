@@ -1,0 +1,32 @@
+/* 
+    Nombre estudiante: Germán A. Riveros Sepúlveda.
+    Generación: 14.
+    Jornada: Vespertina. 
+    Desafío: Cuppon.  
+*/
+
+/* Configuración general. */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+/* Fin configuración general. */
+
+/* Color. */
+:root{
+    --light: #F8F9FA;
+    --white:#fff;
+    --success: #28a745;
+}
+
+
+/* Barra de navegación. */
+
+.navbar{
+    background: var(--success);
+}
+
+.navbar img{
+    height: 2rem;
+}
